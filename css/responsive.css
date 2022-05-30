@@ -1,0 +1,28 @@
+/* TABLET RESPONSIVE */
+
+@media screen and (min-width:768px){
+
+    .row{
+        flex-direction: row;
+    }
+
+    .features .small-col{
+        width: calc(100% / 3 - 16px);
+    }
+
+    #demo-application{
+        width: calc(100% / 3 * 2 - 8px);
+    }
+}
+
+
+/* DESKTOP RESPONSIVE */
+
+@media screen and (min-width:1200px){
+
+    .container{
+        margin: 0 auto;
+        width: 1120px;
+        padding: 0;
+    }
+}
