@@ -17,12 +17,3 @@
 
 
 /* DESKTOP RESPONSIVE */
-
-@media screen and (min-width:1200px){
-
-    .container{
-        margin: 0 auto;
-        width: 1120px;
-        padding: 0;
-    }
-}
