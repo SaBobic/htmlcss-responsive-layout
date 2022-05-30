@@ -59,6 +59,10 @@ main{
     color: #fff;
 }
 
+.c-purple{
+    color: #9792E4;
+}
+
 .bg-white{
     background-color: #fff;
 }
@@ -144,8 +148,12 @@ nav{
     margin-bottom: 30px;
 }
 
-/* FEATURES SECTION */
+/* BENEFITS SECTION */
 
 #benefits{
     padding: 70px 0;
+}
+
+#benefits .small-col{
+    padding: 50px 40px;
 }

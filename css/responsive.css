@@ -21,6 +21,10 @@
     .customer-image{
         margin-right: 20px;
     }
+
+    #benefits .small-col{
+        width: calc(100% / 2 - 16px);
+    }
 }
 
 /* DESKTOP RESPONSIVE */
@@ -49,5 +53,9 @@
 
     .customer-image{
         margin-right: 50px;
+    }
+
+    #benefits .small-col{
+        width: calc(100% / 3 - 16px);
     }
 }
