@@ -13,6 +13,14 @@
     #demo-application{
         width: calc(100% / 3 * 2 - 8px);
     }
+
+    #testimonials .big-col{
+        display: flex;
+    }
+
+    .customer-image{
+        margin-right: 20px;
+    }
 }
 
 /* DESKTOP RESPONSIVE */
@@ -37,5 +45,9 @@
 
     .s-planning-row div:last-child{
         padding-top: 50px;
+    }
+
+    .customer-image{
+        margin-right: 50px;
     }
 }
