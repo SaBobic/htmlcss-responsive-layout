@@ -14,12 +14,24 @@ body{
 
 /* UTILS */
 
-.d-flex{
-    display: flex;
-}
-
 .container{
     padding: 0 40px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.small-col{
+    min-height: 400px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.bg-lightblue{
+    background-color: #B5DDFF;
 }
 
 /* HEADER */
@@ -28,10 +40,13 @@ header{
     height: 80px;
     background-color: #0084FD;
     color: #fff;
+    margin-bottom: 50px;
 }
 
 nav{
     height: 100%;
+
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -47,3 +62,5 @@ nav{
     height: 30px;
     width: 30px;
 }
+
+/* FEATURES SECTION */
