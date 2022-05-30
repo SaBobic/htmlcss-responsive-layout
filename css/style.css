@@ -12,6 +12,10 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+main{
+    padding-top: 130px;
+}
+
 /* UTILS */
 
 .container{
@@ -28,6 +32,10 @@ body{
     justify-content: space-between;
 }
 
+.d-flex{
+    display: flex;
+}
+
 .small-col{
     min-height: 400px;
     border-radius: 20px;
@@ -42,9 +50,11 @@ body{
 
 header{
     height: 80px;
+    width: 100%;
     background-color: #0084FD;
     color: #fff;
-    margin-bottom: 50px;
+    position: fixed;
+    z-index: 1;
 }
 
 nav{
@@ -62,9 +72,33 @@ nav{
 }
 
 #main-menu-mobile{
+    font-size: 1.7rem;
+}
+
+#main-menu-desktop{
+    display: none;
+}
+
+#main-menu-desktop li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+#main-menu-desktop li a{
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#main-menu-desktop #main-menu-desktop-button{
+    color: #000;
     background-color: #fff;
-    height: 30px;
-    width: 30px;
+    border-radius: 20px;
+    padding: 5px 15px;
 }
 
 /* FEATURES SECTION */
+
+.features{
+    margin-bottom: 50px;
+}
