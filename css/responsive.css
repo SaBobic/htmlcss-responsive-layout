@@ -26,4 +26,16 @@
     #main-menu-desktop{
         display: block;
     }
+
+    .s-planning-row{
+        width: 800px;
+    }
+
+    .s-planning-row div{
+        width: 50%;
+    }
+
+    .s-planning-row div:last-child{
+        padding-top: 50px;
+    }
 }
