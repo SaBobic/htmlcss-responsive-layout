@@ -25,6 +25,14 @@
     #benefits .small-col{
         width: calc(100% / 2 - 16px);
     }
+
+    #about-us{
+        display: flex;
+    }
+
+    #about-us-text{
+        padding-right: 50px;
+    }
 }
 
 /* DESKTOP RESPONSIVE */

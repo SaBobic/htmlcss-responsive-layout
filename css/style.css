@@ -22,7 +22,7 @@ main{
     margin: 0 auto;
     width: 100%;
     max-width: 1120px;
-    padding: 0 30px;
+    padding: 70px 30px;
 }
 
 .m-0auto{
@@ -86,8 +86,9 @@ header{
     z-index: 1;
 }
 
-nav{
+nav.container{
     height: 100%;
+    padding: 0 30px;
 
     display: flex;
     justify-content: space-between;
@@ -134,15 +135,7 @@ nav{
 
 /* STRATEGIC PLANNING SECTION */
 
-.s-planning-row{
-    padding: 70px 0;
-}
-
 /* TESTIMONIALS SECTION */
-
-#testimonials{
-    padding: 70px 0;
-}
 
 #testimonials .big-col{
     margin-bottom: 30px;
@@ -150,10 +143,8 @@ nav{
 
 /* BENEFITS SECTION */
 
-#benefits{
-    padding: 70px 0;
+#benefits .small-col{
+    padding: 50px 0;
 }
 
-#benefits .small-col{
-    padding: 50px 40px;
-}
+/* ABOUT US SECTION */
