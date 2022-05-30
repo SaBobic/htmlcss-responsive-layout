@@ -33,6 +33,7 @@
     #about-us-text{
         padding-right: 50px;
     }
+
 }
 
 /* DESKTOP RESPONSIVE */
@@ -45,10 +46,6 @@
 
     #main-menu-desktop{
         display: block;
-    }
-
-    .s-planning-row{
-        width: 800px;
     }
 
     .s-planning-row div{
