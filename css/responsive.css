@@ -40,11 +40,11 @@
 
 @media screen and (min-width:1200px){
 
-    #main-menu-mobile{
+    #hamburger-menu{
         display: none;
     }
 
-    #main-menu-desktop{
+    #main-menu{
         display: block;
     }
 

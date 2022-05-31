@@ -79,7 +79,7 @@ main{
 
 header{
     height: 80px;
-    
+
     background-color: #0084FD;
     color: #fff;
 
@@ -105,26 +105,26 @@ nav.container{
     width: 120px;
 }
 
-#main-menu-mobile{
+#hamburger-menu{
     font-size: 1.7rem;
 }
 
-#main-menu-desktop{
+#main-menu{
     display: none;
 }
 
-#main-menu-desktop li{
+#main-menu li{
     list-style-type: none;
     margin-left: 30px;
 }
 
-#main-menu-desktop li a{
+#main-menu li a{
     color: #fff;
     font-size: 1.2rem;
     text-decoration: none;
 }
 
-#main-menu-desktop #main-menu-desktop-button{
+#main-menu-button{
     color: #000;
     background-color: #fff;
     border-radius: 20px;
