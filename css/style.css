@@ -114,19 +114,15 @@ nav.container{
     width: 100%;
 }
 
-
-
 /* TESTIMONIALS SECTION */
 
-#testimonials .big-col{
-    margin-bottom: 30px;
+#testimonials .card{
+    min-height: 400px;
+    border-radius: 50px;
+    background-color: #9792E4;
 }
 
 /* BENEFITS SECTION */
-
-#benefits .small-col{
-    padding: 50px 0;
-}
 
 /* ABOUT US SECTION */
 

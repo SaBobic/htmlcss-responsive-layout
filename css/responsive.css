@@ -32,16 +32,9 @@
         width: calc(100% / 3 * 2 - 8px);
     }
 
-    #testimonials .big-col{
+    #testimonials .card{
         display: flex;
-    }
-
-    .customer-image{
-        margin-right: 20px;
-    }
-
-    #benefits .small-col{
-        width: calc(100% / 2 - 16px);
+        align-items: center;
     }
 
     #about-us{
@@ -57,6 +50,22 @@
 /* DESKTOP RESPONSIVE */
 
 @media screen and (min-width:1200px){
+
+    .desktop-d-flex{
+        display: flex;
+    }
+
+    .desktop-w-25{
+        width: 25%;
+    }
+
+    .desktop-w-50{
+        width: 50%;
+    }
+
+    .desktop-w-75{
+        width: 75%;
+    }
 
     #hamburger-menu{
         display: none;
@@ -82,21 +91,5 @@
         background-color: #fff;
         border-radius: 20px;
         padding: 5px 15px;
-    }
-
-    .desktop-d-flex{
-        display: flex;
-    }
-
-    .desktop-w-50{
-        width: 50%;
-    }
-
-    .customer-image{
-        margin-right: 50px;
-    }
-
-    #benefits .small-col{
-        width: calc(100% / 3 - 16px);
     }
 }
