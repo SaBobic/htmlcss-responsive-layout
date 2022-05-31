@@ -48,6 +48,10 @@
         display: flex;
         align-items: center;
     }
+
+    #about-us div:first-child{
+        padding-right: 5rem;
+    }
 }
 
 /* DESKTOP RESPONSIVE */
@@ -56,6 +60,10 @@
 
     .desktop-d-flex{
         display: flex;
+    }
+
+    .desktop-w-20{
+        width: 20%;
     }
 
     .desktop-w-25{
@@ -76,6 +84,10 @@
 
     .desktop-w-75{
         width: 75%;
+    }
+
+    .desktop-w-80{
+        width: 80%;
     }
 
     .desktop-m-0auto{

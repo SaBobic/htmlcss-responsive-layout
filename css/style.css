@@ -21,6 +21,11 @@ section{
     padding: 3rem 2rem;
 }
 
+h1{
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+
 /* UTILS */
 
 .container{
@@ -276,6 +281,7 @@ nav.container{
 
 #benefits .card p{
     color: #737373;
+    font-size: 0.9rem;
 }
 
 #benefits .card .btn{
@@ -285,6 +291,48 @@ nav.container{
 }
 
 /* ABOUT US SECTION */
+
+#about-us{
+    width: 100%;
+    max-width: 1000px;
+}
+
+#about-us .about-us-pfp{
+    background-image: url(../img/about.jpg);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#about-us .about-us-pfp .fa-quote-left{
+    height: 50px;
+    line-height: 50px;
+    font-size: 5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#about-us span{
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+#about-us .btn{
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+#about-us .btn .fa-linkedin{
+    margin-right: 5px;
+}
 
 /* GET STARTED SECTION */
 
