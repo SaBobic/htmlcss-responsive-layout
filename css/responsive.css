@@ -82,6 +82,10 @@
         width: 75%;
     }
 
+    .desktop-m-0auto{
+        margin: 0 auto;
+    }
+
     #hamburger-menu{
         display: none;
     }
