@@ -40,6 +40,10 @@
         padding: 0 1rem;
     }
 
+    .g2{
+        padding: 0 2rem;
+    }
+
     .s-planning-row{
         max-width: 800px;
     }
@@ -110,6 +114,16 @@
         background-color: #fff;
         border-radius: 20px;
         padding: 5px 15px;
+    }
+
+    #strategic-planning .col{
+        margin-top: 1rem;
+        margin-bottom: 0;
+        align-self: flex-end;
+    }
+
+    #left-div p{
+        margin-bottom: 0;
     }
 
     #benefits{
