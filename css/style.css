@@ -392,10 +392,13 @@ footer{
     background-color: #333333;
     color: #DCDCDC;
     padding: 30px;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
 }
 
 footer div{
     margin: 0 auto;
+    padding-bottom: 1rem;
     width: 100%;
     max-width: 400px;
 }
