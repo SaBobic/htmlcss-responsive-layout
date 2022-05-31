@@ -2,6 +2,10 @@
 
 @media screen and (min-width:768px){
 
+    .tablet-d-flex{
+        display: flex;
+    }
+
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -16,8 +20,16 @@
         width: calc(100% / 3);
     }
 
+    .tablet-w-40{
+        width: 40%;
+    }
+
     .tablet-w-50{
         width: 50%;
+    }
+
+    .tablet-w-60{
+        width: 60%;
     }
 
     .tablet-w-66{
@@ -40,15 +52,6 @@
         display: flex;
         align-items: center;
     }
-
-    #about-us{
-        display: flex;
-    }
-
-    #about-us-text{
-        padding-right: 50px;
-    }
-
 }
 
 /* DESKTOP RESPONSIVE */
@@ -65,6 +68,10 @@
 
     .desktop-w-33{
         width: calc(100% / 3);
+    }
+
+    .desktop-w-66{
+        width: calc(100% / 3 * 2);
     }
 
     .desktop-w-50{
