@@ -124,6 +124,12 @@ nav.container{
 
 /* BENEFITS SECTION */
 
+#benefits .card{
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 2.5rem 2rem;
+}
+
 /* ABOUT US SECTION */
 
 /* GET STARTED SECTION */

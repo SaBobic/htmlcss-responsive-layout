@@ -8,12 +8,16 @@
         justify-content: space-between;
     }
     
-    #features .row{
+    #features .row, #benefits .row{
         margin: 0 -1rem;
     }
 
     .tablet-w-33{
         width: calc(100% / 3);
+    }
+
+    .tablet-w-50{
+        width: 50%;
     }
 
     .tablet-w-66{
@@ -59,6 +63,10 @@
         width: 25%;
     }
 
+    .desktop-w-33{
+        width: calc(100% / 3);
+    }
+
     .desktop-w-50{
         width: 50%;
     }
@@ -86,10 +94,18 @@
         text-decoration: none;
     }
 
-    #main-menu li #main-menu-button{
+    #main-menu-button{
         color: #000;
         background-color: #fff;
         border-radius: 20px;
         padding: 5px 15px;
+    }
+
+    #benefits{
+        padding: 0;
+    }
+
+    #benefits .container{
+        padding: 3rem 2rem;
     }
 }
