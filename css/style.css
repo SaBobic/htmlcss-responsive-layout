@@ -48,7 +48,7 @@ h1{
 
 .btn{
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
 .c-white{
@@ -341,6 +341,49 @@ nav.container{
 #get-started .container{
     width: 100%;
     max-width: 500px;
+}
+
+#get-started span{
+    display: block;
+}
+
+#get-started span:first-child{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #D5D4F4;
+}
+
+#get-started span:nth-child(2){
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+}
+
+#get-started span:nth-child(3){
+    font-size: 4rem;
+    line-height: 4.8rem;
+    font-weight: 700;
+    color: #FDC15F;
+}
+
+#get-started span:last-child{
+    font-size: 0.9rem;
+}
+
+#get-started .fa-circle{
+    font-size: 0.25rem;
+    vertical-align: middle;
+    margin: 0 2px;
+}
+
+#get-started .container > a{
+    display: inline-block;
+
+    padding: 1.2rem 5rem;
+
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
 }
 
 /* FOOTER */
