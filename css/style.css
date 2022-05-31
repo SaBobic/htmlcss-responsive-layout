@@ -99,10 +99,8 @@ nav.container{
     align-items: center;
 }
 
-#logo{
-    background-color: #fff;
-    height: 40px;
-    width: 120px;
+#logo img{
+    display: block;
 }
 
 #hamburger-menu{
@@ -111,24 +109,6 @@ nav.container{
 
 #main-menu{
     display: none;
-}
-
-#main-menu li{
-    list-style-type: none;
-    margin-left: 30px;
-}
-
-#main-menu li a{
-    color: #fff;
-    font-size: 1.2rem;
-    text-decoration: none;
-}
-
-#main-menu-button{
-    color: #000;
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 5px 15px;
 }
 
 /* FEATURES SECTION */
