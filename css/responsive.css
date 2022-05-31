@@ -2,23 +2,30 @@
 
 @media screen and (min-width:768px){
 
-    #features .row{
+    .row{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+    
+    #features .row{
         margin: 0 -1rem;
     }
 
-    .w-33{
+    .tablet-w-33{
         width: calc(100% / 3);
     }
 
-    .w-66{
+    .tablet-w-66{
         width: calc(100% / 3 * 2);
     }
 
     .g1{
         padding: 0 1rem;
+    }
+
+    .s-planning-row{
+        max-width: 800px;
     }
 
     #demo-application{
@@ -77,12 +84,12 @@
         padding: 5px 15px;
     }
 
-    .s-planning-row div{
-        width: 50%;
+    .desktop-d-flex{
+        display: flex;
     }
 
-    .s-planning-row div:last-child{
-        padding-top: 50px;
+    .desktop-w-50{
+        width: 50%;
     }
 
     .customer-image{

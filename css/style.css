@@ -24,6 +24,7 @@ section{
 
 .container{
     margin: 0 auto;
+    width: 100%;
     max-width: 1120px;
 }
 
@@ -42,7 +43,6 @@ section{
 .col{
     margin-bottom: 2rem;
 }
-
 
 .c-white{
     color: #fff;
@@ -110,10 +110,11 @@ nav.container{
 
 /* STRATEGIC PLANNING SECTION */
 
-.s-planning-row{
+.s-planning-row img{
     width: 100%;
-    max-width: 800px;
 }
+
+
 
 /* TESTIMONIALS SECTION */
 
