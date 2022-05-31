@@ -269,6 +269,21 @@ nav.container{
     padding: 2.5rem 2rem;
 }
 
+#benefits h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+#benefits .card p{
+    color: #737373;
+}
+
+#benefits .card .btn{
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.5rem 3rem;
+}
+
 /* ABOUT US SECTION */
 
 /* GET STARTED SECTION */
