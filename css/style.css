@@ -13,16 +13,18 @@ body{
 }
 
 main{
-    padding-top: 130px;
+    padding-top: 80px;
+}
+
+section{
+    padding: 3rem 2rem;
 }
 
 /* UTILS */
 
 .container{
     margin: 0 auto;
-    width: 100%;
     max-width: 1120px;
-    padding: 70px 30px;
 }
 
 .m-0auto{
@@ -33,27 +35,14 @@ main{
     text-align: center;
 }
 
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .d-flex{
     display: flex;
 }
 
-.small-col{
-    min-height: 400px;
-    border-radius: 20px;
-    margin-bottom: 30px;
+.col{
+    margin-bottom: 2rem;
 }
 
-.big-col{
-    border-radius: 40px;
-    padding: 20px 10px;
-}
 
 .c-white{
     color: #fff;
@@ -79,7 +68,7 @@ main{
 
 header{
     height: 80px;
-
+    
     background-color: #0084FD;
     color: #fff;
 
@@ -92,8 +81,8 @@ header{
 
 nav.container{
     height: 100%;
-    padding: 0 30px;
-
+    padding: 0 2rem;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,8 +102,10 @@ nav.container{
 
 /* FEATURES SECTION */
 
-.features{
-    margin-bottom: 100px;
+#features .card{
+    min-height: 400px;
+    border-radius: 20px;
+    background-color: #9792E4;
 }
 
 /* STRATEGIC PLANNING SECTION */

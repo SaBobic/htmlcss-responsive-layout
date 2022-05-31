@@ -2,12 +2,23 @@
 
 @media screen and (min-width:768px){
 
-    .row{
-        flex-direction: row;
+    #features .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 -1rem;
     }
 
-    .features .small-col{
-        width: calc(100% / 3 - 16px);
+    .w-33{
+        width: calc(100% / 3);
+    }
+
+    .w-66{
+        width: calc(100% / 3 * 2);
+    }
+
+    .g1{
+        padding: 0 1rem;
     }
 
     #demo-application{
